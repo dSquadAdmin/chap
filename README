@@ -1,0 +1,25 @@
+Challenge Handshake Authentication Protocol - CHAP
+            Described in RFC - 1994
+--------------------------------------------------
+
+This program is simulation for the CHAP that is 
+implimented in authenticating the user (here user
+means any user or system) to the host (or server).
+In standards MD5 hashing is used to hash the 
+credentials, this program implements the SHA1 hashing
+function. You are allowed to modify or use this program
+under the terms of GNU/GPL 3.0 licence included with
+this program.
+---------------------------------------------------
+The user IDs and Passwords are stored on "validUser"
+hash variable in the function "ifEsists()." For the 
+details on the CHAP packets and process please refer
+to rfc1994.txt file.
+
+---------------------------------------------------
+Author: Keshav Bist
+Email: keshav.bist@alumni.mondragon.edu
+Web: http:\\keshavbist.com.np
+---------------------------------------------------
+Note: This program needs ruby environment to run.
+---------------------------------------------------
